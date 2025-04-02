@@ -1,0 +1,143 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-banner {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 25px;
+    background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(110, 72, 170, 0.3);
+  }
+  
+  .welcome-banner h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .welcome-banner p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  .profile-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  .profile-card h2 {
+    margin-top: 0;
+    color: #4a4a4a;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 12px;
+    font-size: 1.5rem;
+  }
+  
+  .profile-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .profile-details p {
+    margin: 8px 0;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .profile-details strong {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .action-buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .action-btn {
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  
+  .study-materials-btn {
+    background: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);
+  }
+  
+  .study-materials-btn:hover {
+    background: linear-gradient(135deg, #00a18b 0%, #8bb936 100%);
+  }
+  
+  .quizzes-btn {
+    background: linear-gradient(135deg, #ff758c 0%, #ff7eb3 100%);
+  }
+  
+  .quizzes-btn:hover {
+    background: linear-gradient(135deg, #e66a80 0%, #e672a6 100%);
+  }
+  
+  .video-lessons-btn {
+    background: linear-gradient(135deg, #4776E6 0%, #8E54E9 100%);
+  }
+  
+  .video-lessons-btn:hover {
+    background: linear-gradient(135deg, #3f6acf 0%, #814cd3 100%);
+  }
+  
+  .logout-btn {
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 65, 108, 0.3);
+  }
+  
+  .logout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 65, 108, 0.4);
+    background: linear-gradient(135deg, #e63a60 0%, #e64427 100%);
+  }
+  
+  /* Add this to your index.css or App.css */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');

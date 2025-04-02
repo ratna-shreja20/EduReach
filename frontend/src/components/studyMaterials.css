@@ -1,0 +1,232 @@
+/* Main Container */
+.study-materials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Header */
+  .study-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .study-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .study-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  /* Subjects Grid */
+  .subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .subject-card {
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .subject-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subject-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .subject-card h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .card-hover-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .subject-card:hover .card-hover-effect {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Subject List */
+  .subject-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .subject-header {
+    margin-bottom: 2rem;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #3498db;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Chapters List */
+  .chapters-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .chapter-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .chapter-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chapter-icon {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    color: #3498db;
+  }
+  
+  .chapter-info {
+    flex: 1;
+  }
+  
+  .chapter-info h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+  }
+  
+  .chapter-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .download-button, .view-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .download-button {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .download-button:hover {
+    background-color: #27ae60;
+  }
+  
+  .view-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .view-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* PDF Viewer */
+  .pdf-viewer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .pdf-header {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .pdf-header h2 {
+    color: #2c3e50;
+    margin: 0;
+  }
+  
+  .pdf-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .pdf-viewer {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loading-pdf, .error-pdf {
+    padding: 2rem;
+    text-align: center;
+    color: #7f8c8d;
+  }
+  
+  .error-pdf {
+    color: #e74c3c;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .subjects-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .chapter-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .chapter-icon {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
