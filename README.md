@@ -16,37 +16,37 @@ EduReach is an e-learning platform designed to provide quality education to rura
 
 📊 Dashboard – Track progress and performance
 
-📸 Screenshots
-
-📌 Dashboard
-
-
-
-📌 Quiz Feature
-
-
-
-📌 Study Materials
-
 
 
 🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS
+
+Frontend: React.js, CSS
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
+
 Authentication: JWT, bcrypt
 
 🏗️ Installation
+
 1.Clone the repository:
+
 git clone https://github.com/yourusername/EduReach.git
 
 2.Navigate to the project directory:
+
 cd EduReach
 
 3.Install dependencies for frontend & backend:
+
 cd frontend && npm install
+
 cd ../backend && npm install
 
+
 4.Start the development servers:
+
 cd frontend && npm start
+
 cd ../backend && npm run dev
