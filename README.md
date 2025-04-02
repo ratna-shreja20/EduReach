@@ -1,38 +1,52 @@
+EduReach: Bridging the Rural Learning Gap
+
+
+
+📌 About EduReach
+
 EduReach is an e-learning platform designed to provide quality education to rural learners. It offers interactive quizzes, study materials, and video lessons to enhance the learning experience.
 
 🚀 Features
-✅ User Authentication (Login/Register)
-✅ Interactive Quizzes for Self-Assessment
-✅ Video Lessons on Various Subjects
-✅ Downloadable Study Materials (PDFs)
-✅ Dashboard for Personalized Learning
 
-🛠 Tech Stack
+📚 Study Materials – Access PDFs and educational resources
+
+🎥 Video Lessons – Watch pre-recorded lectures
+
+📝 Quizzes – Test knowledge with interactive quizzes
+
+📊 Dashboard – Track progress and performance
+
+📸 Screenshots
+
+📌 Dashboard
+
+
+
+📌 Quiz Feature
+
+
+
+📌 Study Materials
+
+
+
+🛠️ Tech Stack
 Frontend: React.js, Tailwind CSS
-
 Backend: Node.js, Express.js
-
 Database: MongoDB
+Authentication: JWT, bcrypt
 
-Version Control: Git & GitHub
+🏗️ Installation
+1.Clone the repository:
+git clone https://github.com/yourusername/EduReach.git
 
-⚙️ Installation & Setup
-1. Clone the Repository
-sh
-Copy code
-git clone https://github.com/ratna-shreja20/EduReach.git
+2.Navigate to the project directory:
 cd EduReach
-2. Setup Backend
-sh
-Copy code
-cd backend
-npm install
-npm start
-3. Setup Frontend
-sh
-Copy code
-cd frontend
-npm install
-npm start
-4. Open in Browser
-Visit http://localhost:3000/ to explore the platform.
+
+3.Install dependencies for frontend & backend:
+cd frontend && npm install
+cd ../backend && npm install
+
+4.Start the development servers:
+cd frontend && npm start
+cd ../backend && npm run dev
